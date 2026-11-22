@@ -10,6 +10,9 @@
 # 从 GitHub 安装（推荐）
 dsh plugin --profile web add github:wangtengteng498/dsh-easysnap-plugin
 
+# 或直接用 Release 里的 zip（免 clone，最快）
+dsh plugin --profile web add https://github.com/wangtengteng498/dsh-easysnap-plugin/releases/download/v0.1.0/dsh-easysnap-plugin-0.1.0.zip
+
 # 或从本地目录安装
 dsh plugin --profile web add /path/to/dsh-easysnap-plugin
 ```
