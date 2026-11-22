@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Snap frame">
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="#1e2026"/>
+  <!-- frame corners -->
+  <path d="M12 24V16a4 4 0 0 1 4-4h8" fill="none" stroke="#2f7cf6" stroke-width="4" stroke-linecap="round"/>
+  <path d="M52 24V16a4 4 0 0 0-4-4h-8" fill="none" stroke="#2f7cf6" stroke-width="4" stroke-linecap="round"/>
+  <path d="M12 40v8a4 4 0 0 0 4 4h8" fill="none" stroke="#2f7cf6" stroke-width="4" stroke-linecap="round"/>
+  <path d="M52 40v8a4 4 0 0 1-4 4h-8" fill="none" stroke="#2f7cf6" stroke-width="4" stroke-linecap="round"/>
+  <!-- camera -->
+  <rect x="22" y="26" width="20" height="14" rx="3" fill="#f2f4f8"/>
+  <circle cx="32" cy="33" r="4.5" fill="#1e2026"/>
+  <rect x="28" y="22.5" width="8" height="4" rx="1.5" fill="#f2f4f8"/>
+</svg>

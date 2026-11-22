@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "截图取景框",
+    "description": "常驻的桌面取景框：把它摆到任意窗口上方，点一下 Snap，框内画面就会作为图片附件插入当前对话。",
+    "detail": "docs/DETAIL.md"
+  }
+}

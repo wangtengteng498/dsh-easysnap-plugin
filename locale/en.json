@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Snap frame",
+    "description": "A persistent capture frame you park over any window: click Snap and the framed region is inserted into the chat as an image attachment.",
+    "detail": "docs/DETAIL.md"
+  }
+}

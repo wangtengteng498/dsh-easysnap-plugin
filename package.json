@@ -1,0 +1,49 @@
+{
+  "name": "dsh-easysnap-plugin",
+  "version": "0.1.0",
+  "description": "A persistent, draggable capture frame for DeepSeek Harness: park it over any window, click Snap, and the framed region lands in the chat as an image attachment.",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "screenshot",
+    "capture",
+    "windows"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangtengteng498/dsh-easysnap-plugin.git"
+  },
+  "homepage": "https://github.com/wangtengteng498/dsh-easysnap-plugin#readme",
+  "bugs": {
+    "url": "https://github.com/wangtengteng498/dsh-easysnap-plugin/issues"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "frame.ps1",
+    "capture.ps1",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs",
+    "icon.svg",
+    "LICENSE",
+    "README.md"
+  ],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": ["@deepseek-ai/dsh-client-ui-conversation"]
+    }
+  }
+}
